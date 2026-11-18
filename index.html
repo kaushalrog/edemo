@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#582536">
+  <meta name="description" content="MIXT — A considered collection of extraordinary things. Discover fashion, technology, home, beauty, sport and lifestyle.">
+  <title>MIXT — A considered collection of extraordinary things</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="announcement" id="announcement"><span>COMPLIMENTARY DELIVERY ON ORDERS OF ₹2,999 AND ABOVE</span><i></i><span>DISCOVER THE LATEST MIXT EDIT</span><i></i><span>NEW SEASON ARRIVALS ARE HERE</span></div>
+  <header class="site-header" id="site-header">
+    <div class="header-main wrap">
+      <button class="icon-button mobile-only" data-action="menu" aria-label="Open menu"><span class="hamb"><i></i><i></i><i></i></span></button>
+      <a class="wordmark" href="#home" aria-label="MIXT home">MIXT<span class="wordmark-star">✦</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home">Discover</a><a href="#shop-new">New Arrivals</a>
+        <div class="nav-group"><a href="#category/fashion">Fashion <span>⌄</span></a><div class="mega-menu"><div><small>THE WARDROBE</small><a href="#category/fashion">All Fashion</a><a href="#category/fashion">Clothing</a><a href="#category/fashion">Footwear</a><a href="#category/fashion">Bags & Accessories</a></div><div class="mega-feature"><img src="assets/images/categories/fashion.webp" alt="Fashion edit"><div><small>THE STYLE EDIT</small><strong>Pieces with presence.</strong><a href="#category/fashion">Explore fashion ↗</a></div></div></div></div>
+        <div class="nav-group"><a href="#category/technology">Technology <span>⌄</span></a><div class="mega-menu"><div><small>THE GOOD GADGETS</small><a href="#category/technology">All technology</a><a href="#category/technology">Audio</a><a href="#category/technology">Desk essentials</a><a href="#category/technology">Smart accessories</a></div><div class="mega-feature"><img src="assets/images/categories/technology.webp" alt="Technology edit"><div><small>THE TECH EDIT</small><strong>Beautifully useful.</strong><a href="#category/technology">Explore technology ↗</a></div></div></div></div>
+        <a href="#category/home">Home & Living</a><a href="#category/beauty">Beauty</a><a href="#category/lifestyle">Lifestyle</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" data-action="search" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button>
+        <button class="icon-button account-action" data-action="account" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 21c.5-4.4 3-6.6 7.5-6.6s7 2.2 7.5 6.6"/></svg></button>
+        <a class="icon-button count-link" href="#wishlist" aria-label="Wishlist"><svg viewBox="0 0 24 24"><path d="M20.7 8.7c0 5.3-8.7 11-8.7 11s-8.7-5.7-8.7-11a4.7 4.7 0 0 1 8.7-2.2 4.7 4.7 0 0 1 8.7 2.2Z"/></svg><b class="count" id="wishlist-count">0</b></a>
+        <button class="icon-button count-link" data-action="cart" aria-label="Shopping bag"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><b class="count" id="cart-count">0</b></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true"><div class="mobile-nav-head"><span>DISCOVER MIXT</span><button data-action="menu-close" aria-label="Close menu">×</button></div><a href="#home">Discover <span>↗</span></a><a href="#shop-new">New Arrivals <span>↗</span></a><a href="#category/fashion">Fashion <span>↗</span></a><a href="#category/technology">Technology <span>↗</span></a><a href="#category/home">Home & Living <span>↗</span></a><a href="#category/beauty">Beauty & Grooming <span>↗</span></a><a href="#category/sports">Sports & Outdoors <span>↗</span></a><a href="#category/lifestyle">Lifestyle & Travel <span>↗</span></a><div class="mobile-nav-note">A considered collection of extraordinary things.</div></div>
+  </header>
+  <main id="app" tabindex="-1"><div class="initial-loader">MIXT <span>THE DISCOVERY STORE</span></div></main>
+  <div class="page-shade" id="page-shade"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true"></aside>
+  <section class="modal-shell" id="modal-shell" aria-hidden="true"><div class="modal-backdrop" data-action="modal-close"></div><div class="modal-panel" id="modal-panel" role="dialog" aria-modal="true" aria-label="MIXT dialog"></div></section>
+  <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
